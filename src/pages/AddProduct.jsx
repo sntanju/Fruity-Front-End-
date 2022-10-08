@@ -73,7 +73,7 @@ const AddProduct = ({user}) => {
 
     await axios({
       method: 'post',
-      url: "http://localhost:5000/products/add",
+      url: "https://calm-yak-sweatpants.cyclic.app/products/add",
       headers: {token},
       data: {"title": Title,  "weight": Weight,  "desc": Desc,   "img": Img,   "price": Price}
     })

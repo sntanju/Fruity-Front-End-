@@ -68,7 +68,7 @@ const ManageAllUsers = ({user}) => {
       const token = "Bearer " + user.accessToken;
       await axios({
         method: 'get',
-        url: "http://localhost:5000/users/find_all",
+        url: "https://calm-yak-sweatpants.cyclic.app/users/find_all",
         headers: {token},
       })
       .then((response) => {
@@ -92,7 +92,7 @@ const ManageAllUsers = ({user}) => {
 
     await axios({
       method: 'put',
-      url: "http://localhost:5000/users/admin/make",
+      url: "https://calm-yak-sweatpants.cyclic.app/users/admin/make",
       headers: {token},
       data: {
         userName: Username

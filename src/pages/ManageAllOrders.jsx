@@ -103,7 +103,7 @@ const ManageAllOrders = ({user}) => {
       const token = "Bearer " + user.accessToken;
       await axios({
         method: 'get',
-        url: "http://localhost:5000/orders/find_all",
+        url: "https://calm-yak-sweatpants.cyclic.app/orders/find_all",
         headers: {token},
       })
       .then((response) => {
@@ -123,7 +123,7 @@ const ManageAllOrders = ({user}) => {
     const token = "Bearer " + user.accessToken;
     await axios({
       method: 'put',
-      url: `http://localhost:5000/orders/update/${order._id}`,
+      url: `https://calm-yak-sweatpants.cyclic.app/orders/update/${order._id}`,
       headers: {token},
       data: {
         Status: "Approved"
@@ -145,7 +145,7 @@ const ManageAllOrders = ({user}) => {
     const token = "Bearer " + user.accessToken;
     await axios({
       method: 'put',
-      url: `http://localhost:5000/orders/update/${order._id}`,
+      url: `https://calm-yak-sweatpants.cyclic.app/orders/update/${order._id}`,
       headers: {token},
       data: {
         Status: "Rejected"

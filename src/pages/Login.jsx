@@ -79,7 +79,7 @@ const Login = ({ user, setUser }) => {
   const postMessage = async (formUsername, formPassword) => {
     await axios({
       method: 'post',
-      url: "http://localhost:5000/auth/login",
+      url: "https://calm-yak-sweatpants.cyclic.app/auth/login",
       headers: {},
       data: {"username": formUsername, "password": formPassword}
     })

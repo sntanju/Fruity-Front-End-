@@ -95,7 +95,7 @@ const ProductDetails = ({user}) => {
       const token = "Bearer " + user.accessToken;
       await axios({
         method: 'post',
-        url: "http://localhost:5000/carts/add",
+        url: "https://calm-yak-sweatpants.cyclic.app/carts/add",
         headers: {token},
         data: {"username": user.username, "productname": recivedProduct.title, "weight": recivedProduct.weight, "img": recivedProduct.img, "price": recivedProduct.price, "quantity": quantity}
       })

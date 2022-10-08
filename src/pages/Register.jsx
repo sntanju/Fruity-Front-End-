@@ -82,7 +82,7 @@ const Register = ({user, setUser}) => {
   const postMessage = async (formUsername, formEmail, formPassword) => {
     await axios({
       method: 'post',
-      url: "http://localhost:5000/auth/register",
+      url: "https://calm-yak-sweatpants.cyclic.app/auth/register",
       headers: {},
       data: {"username": formUsername,"email": formEmail, "password": formPassword}
     })
