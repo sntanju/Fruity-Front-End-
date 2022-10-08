@@ -1,6 +1,6 @@
 # Fruity - A Complete Fruit Selling Website
 
-### <a href= "https://typing-speed-test-front-end-omega.vercel.app/" >Live Site Link</a> || <a href= "https://calm-yak-sweatpants.cyclic.app/" >Backend Api Link</a> || <a href= "https://github.com/sntanju/Fruity-Back-End-" >Backend Code Link</a>
+### <a href= "https://fruity-nine.vercel.app/" >Live Site Link</a> || <a href= "https://calm-yak-sweatpants.cyclic.app/" >Backend Api Link</a> || <a href= "https://github.com/sntanju/Fruity-Back-End-" >Backend Code Link</a>
 
 ## Tecnology Used
 
